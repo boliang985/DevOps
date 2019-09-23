@@ -1,4 +1,4 @@
-
+﻿
 function ZYFP()
 {
 	$VSPHERE_CLIENT=Read-Host "
@@ -10,8 +10,8 @@ function ZYFP()
 	
 	switch ($VSPHERE_CLIENT)
 	{
-	1 {Connect-VIServer 192.168.156.110 -User admin -Password MLdc"&"156rf}
-	2 {Connect-VIServer 192.168.22.221 -User admin -Password GTDC"#"221sx}
+	1 {Connect-VIServer 192.168.156.110 -User admin -Password ############}
+	2 {Connect-VIServer 192.168.22.221 -User admin -Password ############}
 	Default{ZYFPLOOP}
 	}
 }
