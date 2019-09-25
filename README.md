@@ -1,0 +1,4 @@
+# DevOps
+shell scripts
+增加了VMware自动化分配虚机的powercli脚本
+增加了Linux操作系统批量规范化脚本的制定
